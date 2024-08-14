@@ -3,11 +3,9 @@ import shutil
 
 #define desktop path
 desktop_path = os.path.expanduser("~/Desktop")
-#print(desktop_path)
 
 
 #create a dic to store the file paths by file extension
-
 files_by_extension = {}
 
 #loop throough all the files on the desktop
